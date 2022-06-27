@@ -22,7 +22,7 @@ console.log(true && false); // false*/
 // program to find the factorial of a number
 
 // take input from the user
-const number = parseInt(DayPilotModal('Enter a positive integer: '));
+const number = parseInt(prompt('Enter a positive integer: '));
 
 // checking if number is negative
 if (number < 0) {
