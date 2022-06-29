@@ -106,5 +106,4 @@ while(i <= number) {
    } else {
      console.log('No zilla here!');
    }*/
-var b = 10;
-console.log(--b);
+
