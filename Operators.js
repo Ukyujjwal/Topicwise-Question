@@ -25,7 +25,7 @@ console.log(true && false); // false*/
 const number = parseInt(prompt('Enter a positive integer: '));
 
 // checking if number is negative
-if (number < 0) {
+/*if (number < 0) {
     console.log('Error! Factorial for negative number does not exist.');
 }
 
@@ -41,4 +41,4 @@ else {
         fact *= i;
     }
     console.log(`The factorial of ${number} is ${fact}.`);
-}
+}*/
