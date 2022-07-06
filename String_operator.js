@@ -76,8 +76,9 @@ console.log(String[String.length-3]);*/
 // take input from the user
 const number = parseInt(prompt('Enter a positive integer: '));
 
-let sum = 0, i = 1;
 
+// sum of n natural number
+let sum = 0, i = 1;
 // looping from i = 1 to number
 while(i <= number) {
     sum += i;
@@ -85,17 +86,16 @@ while(i <= number) {
 }
   console.log(max_of_three(0, 2, 9));*/
 
-   /*let num = 100;
+   /*let num = 5;
    let sum = 0;
    for (let i = 1; i<= num; i++) {
      sum += i;
-    
    }
    console.log(sum);*/
-  /*  function sum(n) {
+    /*function sum(n) {
      return n*(n+1)/2;
    }
-   let n = 7;
+   let n = 6586548523;
    console.log(sum(n));*/
 
 //find subString use include() method
@@ -107,3 +107,70 @@ while(i <= number) {
      console.log('No zilla here!');
    }*/
 
+
+
+  //  function bblSort(arr){
+  //    for(var i = 0; i < arr.length; i++){
+  //      for(var j = 0; j < (arr.length - i -1); j++){
+  //        if(arr[j] > arr[j+1]){
+  //          var temp = arr[j]
+  //          arr[j] = arr[j+1]
+  //          arr[j+1] = temp
+  //        }
+  //      }
+  //    }
+  //    console.log(arr);
+  //  }
+
+  //  var arr =[234, 43, 55, 63, 5, 6, 235, 547];
+  //  bblSort(arr);
+
+
+  // Optimized implementation of bubble sort Algorithm
+
+// function bubbleSort(arr){
+	
+//   var i, j;
+//   var len = arr.length;
+    
+//   var isSwapped = false;
+    
+//   for(i =0; i < len; i++){
+    
+//     isSwapped = false;
+    
+//     for(j = 0; j < len; j++){
+//       if(arr[j] > arr[j + 1]){
+//       var temp = arr[j]
+//       arr[j] = arr[j+1];
+//       arr[j+1] = temp;
+//       isSwapped = true;
+//       }
+//     }
+    
+//     // IF no two elements were swapped by inner loop, then break
+    
+//     if(!isSwapped){
+//     break;
+//     }
+//   }
+    
+//   // Print the array
+//   console.log(arr)
+//   }
+  
+//   var arr = [243, 45, 23, 356, 3, 5346, 35, 5];
+  
+//   // calling the bubbleSort Function
+//   bubbleSort(arr)
+function fibonacci(n){
+  if(n < 3) return n
+  return fibonacci(n-1) + fibonacci(n-2) + fibonacci(n-3)
+ }
+ 
+ const num = 3;
+ 
+ for(let i = 0; i<num;  ++i){
+  console.log(fibonacci(i))
+ }
+ 
