@@ -1,0 +1,82 @@
+/*EXTERNAL STYLING*/
+/*body{
+    background-color: aquamarine;
+    text-align: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+    color: blanchedalmond;
+
+}
+p{
+    font-family: arial;
+    font-weight: 900;
+    font-size: 20px;
+    color: blue;
+
+}*/
+
+/*UNIVERSAL SELECTOR*/
+/**{
+    background-color: black;
+    text-align: center;
+    font-size: 200;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style:italic;
+    color: aquamarine;
+}*/
+
+/*p.ujjwal {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+}*/
+
+
+/*ID IS UNIQUE FOR EVERY PAGE SO WE CAN USE AT ONLY FOR ONE ELEMENT*/
+/*#ujjwal{
+    text-align: center;
+    color: blueviolet;
+}*/
+
+/*ATTRIBUTE SELECTOR*/
+/*a[href = "target"] {
+    background-color: aquamarine;
+    color: black;
+    font-style: italic;
+}
+.my-img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid pink;
+    padding: 9px;
+    margin: 9px;
+}
+.my-img:hover{
+    background-color: aquamarine;
+}*/
+
+
+/*.headline{
+    color: firebrick;
+}
+h1{
+    columns: black;
+}*/
+
+.main-list li {
+    color:crimson;
+    background-color:wheat;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+p{
+    color: red;
+}
+
+.mainp{
+    color: blue;
+}
